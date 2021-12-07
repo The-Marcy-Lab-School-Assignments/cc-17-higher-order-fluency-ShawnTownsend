@@ -11,7 +11,7 @@ function longWords(array) {
 }
 
 function shortWords(array) {
-  return array.filter((longWords) => longWords.length < 5);
+  return array.filter((words) => words.length < 5);
 }
 
 function oddLength(array) {
